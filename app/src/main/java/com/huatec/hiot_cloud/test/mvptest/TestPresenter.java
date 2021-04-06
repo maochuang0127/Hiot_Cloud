@@ -10,7 +10,7 @@ public class TestPresenter {
         this.view = view;
     }
     public void login(User user){
-        if("maochuang".equals(user.getUserName()) && "1803080128".equals(user.getPassword())){
+        if("xiangliyue".equals(user.getUserName()) && "1803080102".equals(user.getPassword())){
             view.showMassage("登录成功");
         }else {
             view.showMassage("登录失败");
