@@ -14,8 +14,9 @@ public class TestPresenter {
             view.showMassage("登录成功");
         }else {
             view.showMassage("登录失败");
+            //测试
         }
     }
-        }
+}
 
 
